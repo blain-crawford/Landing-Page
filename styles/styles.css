@@ -1,3 +1,8 @@
+@font-face {
+  font-family: city-font;
+  src: url(/fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
 body,
 html {
   height: 100%;
@@ -5,7 +10,7 @@ html {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: sans-serif;
+  font-family: city-font;
 }
 
 .container {
