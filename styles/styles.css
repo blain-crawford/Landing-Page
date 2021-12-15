@@ -41,6 +41,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid pink;
 
 }
 
@@ -84,6 +85,21 @@ html {
 .header-list-item{
   margin: 8px;
   font-size: 20px;
+}
+
+.bottom-header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.where-were-we{
+  width: 200px;
+  height: 200px;
+  border: 1px solid orange;
+  object-fit: cover;
+  border-radius: 15px;
 }
 
 .main-content{
