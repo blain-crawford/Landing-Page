@@ -89,6 +89,7 @@ html {
   border: 1px solid white;
   border-radius: 5%;
   padding: 5px 15px 5px 15px;
+  transition: all 0.5s ease-in-out;
 }
 
 .top-container button:hover{
@@ -113,4 +114,11 @@ html {
   border-radius: 15%;
   border: 2px solid orange;
   box-shadow: 10px 15px 23px 1px rgba(186,58,26,0.64);
+  transition: all 0.5s ease-in-out;
+}
+
+.band-members img:hover{
+  height: 210px;
+  width: 210px;
+  box-shadow: 10px 15px 23px 10px rgba(186,58,26,0.64);
 }
