@@ -1,10 +1,9 @@
-body,
+ body,
 html {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 h3{
@@ -111,12 +110,13 @@ h3{
 }
 
 .bottom-header-content-right{
-  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  flex-wrap: wrap;
   border: 1px solid white;
-
+  width: 40%;
+  padding: 8px;
 }
 
 .bottom-header-text{
@@ -133,11 +133,24 @@ h3{
 
 .main-content{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  width: 100%;
+  gap: 16px;
+}
+
+.members{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  height: 400px;
   width: 100%;
   gap: 16px;
 }
@@ -148,5 +161,6 @@ h3{
   border: 1px solid orange;
   object-fit: cover;
   border-radius: 15px;
+  margin: 10px 20px 4px 3px;
 }
 
