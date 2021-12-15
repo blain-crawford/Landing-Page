@@ -4,6 +4,8 @@ html {
   width: 100%;
   margin: 0;
   padding: 0;
+  text-align: center;
+  font-family: sans-serif;
 }
 
 .container {
@@ -87,4 +89,23 @@ html {
 .top-container button:hover{
   box-shadow: 10px 15px 23px 1px rgba(186,58,26,0.64);
   padding: 8px 17px 8px 17px; ;
+}
+
+/* Band member Section */
+
+.band-members{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.band-members img {
+  height: 200px;
+  width: 200px;
+  object-fit:cover;
+  border-radius: 15%;
+  border: 2px solid orange;
+  box-shadow: 10px 15px 23px 1px rgba(186,58,26,0.64);
 }
