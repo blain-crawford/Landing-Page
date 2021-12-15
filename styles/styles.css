@@ -19,7 +19,7 @@ html {
 }
 
 /* navbar */
-.nav-bar{
+.nav-bar {
   display: flex;
   justify-content: space;
   align-items: center;
@@ -29,7 +29,7 @@ html {
   margin: 0;
 }
 
-.nav-bar-left{
+.nav-bar-left {
   display: flex;
   justify-content: flex-start;
   gap: 16px;
@@ -37,28 +37,34 @@ html {
   flex: 1 1 auto;
 }
 
-.nav-bar img{ 
+.nav-bar img {
   height: 40px;
 }
 
-.links{
+.links {
   display: flex;
   justify-content: flex-end;
   margin-left: auto;
   flex: 1 1 auto;
 }
 
-.links a{
+.links a {
   padding-right: 32px;
   color: white;
   font-size: 18px;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.links a:hover {
+  box-shadow: 1px 1px 23px 1px rgba(186, 58, 26, 0.64);
 }
 
 /* Top section of site */
 
 .top-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 1)) , url("/images/cropped-logo-topper.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.627), rgba(0, 0, 0, 1)),
+    url("/images/cropped-logo-topper.jpeg");
   background-position: center;
   background-size: stretch;
   margin: 0;
@@ -68,6 +74,7 @@ html {
   justify-content: center;
   flex-wrap: wrap;
   gap: 5%;
+  box-shadow: 0px 1px 23px 1px rgba(186, 58, 26, 0.64);
 }
 
 .top-container img {
@@ -76,15 +83,15 @@ html {
   object-fit: contain;
   border-radius: 15%;
   border: 2px solid orange;
-  box-shadow: 10px 15px 23px 1px rgba(186,58,26,0.64);
+  box-shadow: 10px 15px 23px 1px rgba(186, 58, 26, 0.64);
 }
 
-.top-container-right{
+.top-container-right {
   color: white;
   width: 300px;
 }
 
-.top-container button{
+.top-container button {
   background-color: rgba(226, 83, 26, 0.555);
   border: 1px solid white;
   border-radius: 5%;
@@ -92,14 +99,14 @@ html {
   transition: all 0.5s ease-in-out;
 }
 
-.top-container button:hover{
-  box-shadow: 10px 15px 23px 1px rgba(186,58,26,0.64);
-  padding: 8px 17px 8px 17px; ;
+.top-container button:hover {
+  box-shadow: 10px 15px 23px 1px rgba(186, 58, 26, 0.64);
+  padding: 8px 17px 8px 17px;
 }
 
 /* Band member Section */
 
-.band-members{
+.band-members {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -110,15 +117,76 @@ html {
 .band-members img {
   height: 200px;
   width: 200px;
-  object-fit:cover;
+  object-fit: cover;
   border-radius: 15%;
   border: 2px solid orange;
-  box-shadow: 10px 15px 23px 1px rgba(186,58,26,0.64);
+  box-shadow: 10px 15px 23px 1px rgba(186, 58, 26, 0.64);
   transition: all 0.5s ease-in-out;
 }
 
-.band-members img:hover{
+.band-members img:hover {
   height: 210px;
   width: 210px;
-  box-shadow: 10px 15px 23px 10px rgba(186,58,26,0.64);
+  box-shadow: 10px 15px 23px 10px rgba(186, 58, 26, 0.64);
+}
+
+/* Audio Player Section */
+.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-top: 50px;
+  border: 1px solid orange;
+  gap: 5%;
+  padding: 64px;
+  box-shadow: 10px 15px 23px 20px rgba(186, 58, 26, 0.64);
+}
+
+.audio-container img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  border-radius: 15%;
+  border: 2px solid orange;
+  box-shadow: 10px 15px 23px 1px rgba(186, 58, 26, 0.64);
+}
+
+.audio-player {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)),
+    url("/images/cropped-logo-topper.jpeg");
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+  border: 1px solid orange;
+  width: 300px;
+  border-radius: 15%;
+  color: white;
+}
+
+audio {
+  color: aqua;
+}
+/* footer */
+
+.footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.627), rgba(0, 0, 0, 1)),
+    url("/images/cropped-logo-topper.jpeg");
+  background-position: center;
+  background-size: stretch;
+  margin: 0;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5%;
+  box-shadow: 1px 1px 23px 10px rgba(186, 58, 26, 0.64);
+}
+
+.footer p {
+  color: white;
 }
