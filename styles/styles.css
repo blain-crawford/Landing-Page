@@ -1,6 +1,6 @@
 @font-face {
   font-family: city-font;
-  src: url(/fonts/Raleway/Raleway-VariableFont_wght.ttf);
+  src: url(./fonts/Raleway/Raleway-VariableFont_wght.ttf);
 }
 
 body,
@@ -64,7 +64,7 @@ html {
 
 .top-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.627), rgba(0, 0, 0, 1)),
-    url("/images/cropped-logo-topper.jpeg");
+    url("./images/cropped-logo-topper.jpeg");
   background-position: center;
   background-size: stretch;
   margin: 0;
@@ -155,7 +155,7 @@ html {
 
 .audio-player {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)),
-    url("/images/cropped-logo-topper.jpeg");
+    url("./images/cropped-logo-topper.jpeg");
     box-shadow: 1px 1px 50px .5px rgba(186, 58, 26, 0.64);
   background-size: contain;
   display: flex;
@@ -213,7 +213,7 @@ audio::-webkit-media-controls-play-button:hover {
 
 .footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.627), rgba(0, 0, 0, 1)),
-    url("/images/cropped-logo-topper.jpeg");
+    url("./images/cropped-logo-topper.jpeg");
   background-position: center;
   background-size: stretch;
   margin: 0;
